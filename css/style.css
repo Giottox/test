@@ -1,0 +1,122 @@
+﻿* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: 'Proba Pro Medium';
+  src: url('fonts/proba_pro.otf');
+}
+
+body {
+  color: black;
+  font-family:'Proba Pro Medium, Arial, Verdana' sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.tleft {
+  text-align: left;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+.tright {
+  text-align: right;
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.tmuted {
+  color: #777;
+}
+
+.clear {
+  clear: both;
+}
+
+.main {
+  background: url(../img/backgrounds/bg-color.png) no-repeat center top;
+}
+
+.container {
+  padding-top: 80px;
+}
+
+.logo {
+  margin-top: 2px;
+}
+
+.right {
+  font-family: "Proba Pro Medium" sans-serif;
+}
+
+.phone {
+  font-size: 30px;
+  font-weight: 400;
+  display: block;
+  color: #000;
+}
+
+.phone-text {
+  font-size: 17px;
+  line-height: 40px;
+  color: #000;
+  display: inline-block;
+  border-bottom: 1px solid #cbcbcb;
+  font-weight: 200;
+  transition: all .4s;
+}
+
+.phone-text:hover {
+  border-bottom: 1px solid #111;
+  transition: all .4s;
+}
+
+.text {
+  
+  margin-top: 107px;
+}
+
+
+/*
+
+.mainw {
+  min-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding-top: 80px;
+}
+
+.container {
+  width: 980px;
+  margin: 0px auto;
+}
+
+*/
+
+
+/*
+@media (max-width: 980px) {
+  .main {
+    min-width: 1060px;
+  }
+}
+
+*/
